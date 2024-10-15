@@ -7,10 +7,7 @@ function setupTabs() {
       const tabToActivate = tabsContainer.querySelector(
         `.tabs__content[data-tab="${tabsNumber}"]`
       );
-      console.log(sideBar);
-      console.log(tabsContainer);
-      console.log(tabsNumber);
-      console.log(tabToActivate);
+
       sideBar.querySelectorAll(".tabs__button").forEach((button) => {
         button.classList.remove("tabs__button-active");
       });
