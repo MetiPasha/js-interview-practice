@@ -1,8 +1,8 @@
-var text = document.querySelector(".text");
-var increase = document.querySelector(".increase");
-var decrease = document.querySelector(".decrease");
+let text = document.querySelector(".text");
+let increase = document.querySelector(".increase");
+let decrease = document.querySelector(".decrease");
 
-var textSize = 20; //soal darbare inke hatman fontsize byd barabar ba 20 bashe?
+let textSize = 20; //soal darbare inke hatman fontsize byd barabar ba 20 bashe?
 
 // for increase
 increase.addEventListener("click", () => {
