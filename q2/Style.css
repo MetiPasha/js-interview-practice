@@ -1,0 +1,49 @@
+.tabs {
+  border: 2px solid #ccc;
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.tabs__sidebar {
+  width: 125px;
+  /* chikar mikone daqiqan */
+  flex-shrink: 0;
+  background-color: #06014eee;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 300px;
+}
+.tabs__button {
+  display: block;
+  padding: 10px;
+  background: #06014eee;
+  border: none;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+}
+.tabs__button:active {
+  background: #ddd;
+}
+.first {
+  border-top-right-radius: 10px;
+}
+
+.tabs__button {
+  border-bottom: 1px solid #3100e4;
+}
+.tabs__button-active {
+  font-weight: bold;
+  border-right: 2px solid rgb(107, 185, 248);
+  background: #ddd;
+}
+.tabs__content {
+  padding: 15px;
+  font-size: 0.8rem;
+  display: none;
+}
+.tabs__content-active {
+  display: block;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kornometer</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>کورنومتر</h1>
+    <div class="container">
+      <div class="time">00:00:00</div>
+      <div class="controls">
+        <button class="control start" id="start">شروع</button>
+        <button class="control lap" id="lap">ثبت رکورد</button>
+        <button class="control reset" id="reset">ریست</button>
+      </div>
+      <div class="lapping">
+        <h4 id="lap1"></h4>
+        <h4 id="lap2"></h4>
+        <h4 id="lap3"></h4>
+        <h4 id="lap4"></h4>
+        <h4 id="lap5"></h4>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>

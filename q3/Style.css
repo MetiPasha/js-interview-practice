@@ -1,0 +1,57 @@
+body {
+  background: #d29404b7;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3a4249;
+  width: 340px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px 0;
+  border-radius: 20px;
+}
+.buttons {
+  background-color: #3a4249;
+  color: #f1f1f1;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px 1px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  width: 60px;
+}
+.equal-button {
+  background-color: orange;
+  color: #3a4249;
+  flex-basis: 130px;
+}
+.clear {
+  color: orange;
+}
+.button-color {
+  color: orange;
+}
+input {
+  width: 235px;
+  margin-bottom: 15px;
+  border: none;
+  color: #f3f0f0;
+  background-color: #30353a;
+  border-radius: 8px;
+  text-align: right;
+  padding: 0 20px;
+}
+#input1 {
+  height: 65px;
+  font-size: xx-large;
+}
+#input2 {
+  height: 40px;
+  font-size: large;
+}
